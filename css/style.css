@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+/* UTILI */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sezione {
+    min-height: 200px;
+}
+.quadrato{
+    min-height: 150px;   
+}
+
+
+/* HEADRE */
+header{
+    height: 50px;
+    background-color: rgb(43, 181, 158);
+}
+
+/* nav-bar */
+.nav-bar{
+    background-color: rgb(255, 129, 39);
+    border: 1px dotted black;
+}
+
+.logo{
+    width: 12.5%; 
+    text-align: start;
+}
+.link{
+    width: 50%;
+    text-align: center;
+}
+.login{
+    width: 12.5%;
+    text-align: end;
+}
+
+/* HERO */
+.blu{
+    background-color: blue;
+}
+.hero-1{
+    width: 55%;
+    background-color: pink;
+}
+/* SECTION ORRDER */
+.bianco{
+    background-color:white;
+}
+.grigio{
+    background-color: lightgrey;
+}
+
+.piccolo{
+    background-color: pink;
+    width: 25%;
+}
+.grande{
+    background-color: blue;
+    width: 50%; 
+}
+/* SECTION NORMALE */
+.sezione-xlarge{
+    min-height: 400px;
+}
+.quadrato-large{
+    min-height: 300px;
+    width: 75%;
+    background-color: green;
+}
+
+/* SECTION 5DIV SHRINK */
+.nero{
+    background-color: black;
+}
+.bordo{
+    border: 1px dotted white;
+}
+.primo{
+    background-color: pink;
+    width: calc((75% / 6) * 2);
+}
+.secondo{
+    background-color: green;
+    width: calc(75% / 6);
+}
+
+/* FOOTET SPACE-BETWEEN */
+.footer{
+    height: 50px;
+    align-items: flex-end;
+}
+.end{
+    min-height: 30px;
+    width: 75%;
+    background-color: lime;
+    justify-content: space-between;
+}
+.rosa{
+    background-color: pink;
+}
