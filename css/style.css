@@ -22,15 +22,27 @@ body{
 .container{
     max-width: 1200px;
     width: 75%;
+    margin: 0 auto;
+    padding: 4rem 0;
 }
 .sezione { /* DEBUG*/
     min-height: 250px;
     
 }
-.quadrato{
+.quadrato{ /*debug*/
     min-height: 150px;   
 }
+.grigio{
+    background-color:#f6f6f6;
+}
 
+ul{
+    list-style-type: none;
+}
+li  a{
+    margin: 10px;
+    padding: 10px;
+}
 
 /* HEADRE */
 header{
@@ -69,17 +81,10 @@ a{
     color: white;
     text-align: center;
 }
-.hero-1 > p{
+.hero-1  p{
     padding: 20px;
 }
 
-.hero-1 > ul{
-    list-style-type: none;
-}
-li > a{
-    margin: 10px;
-    padding: 10px;
-}
 .mac{
     content:"\1F817";
     color: black;
@@ -87,8 +92,9 @@ li > a{
     border-radius: 20px; 
     vertical-align: middle; 
 }
-.mac > span{
-    font-size: 30px;
+.mac  span{
+    font-weight: 800;
+    font-size: 20px;
     vertical-align: middle;
     padding-right: 5px;
 }
@@ -99,29 +105,36 @@ li > a{
 }
 
 /* SECTION ORRDER */
-.bianco{
-    background-color:white;
-}
-.grigio{
-    background-color: lightgrey;
+
+.main-section h2{
+    padding-bottom: 1rem;
 }
 
-.piccolo{
-    background-color: pink;
-    width: 25%;
+.text-section{
+    width: 20%;
+    margin: 0 auto;
 }
-.grande{
-    background-color: blue;
-    width: 50%; 
+
+/* SECTION-XL */
+
+.section-xl{
+    text-align: center; 
 }
-/* SECTION NORMALE */
-.sezione-xlarge{
-    min-height: 400px;
+.section-xl .text-section{
+    width: 40%;
 }
-.quadrato-large{
-    min-height: 300px;
-    width: 75%;
-    background-color: green;
+.section-xl h2{
+    padding: 2rem 0;
+}
+.section-xl .star{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-xl .mac{
+    background-color: #7289da;
+    color: white;
+    margin: 2rem 0;
 }
 
 /* SECTION 5DIV SHRINK */
