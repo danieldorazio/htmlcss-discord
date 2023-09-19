@@ -19,6 +19,10 @@ body{
 .between{
     justify-content: space-between;
 }
+.justify-start{
+    justify-content: flex-start;
+}
+
 .container{
     max-width: 1200px;
     width: 75%;
@@ -29,19 +33,18 @@ body{
     min-height: 250px;
     
 }
-.quadrato{ /*debug*/
-    min-height: 150px;   
-}
-.grigio{
-    background-color:#f6f6f6;
-}
 
 ul{
     list-style-type: none;
 }
-li  a{
-    margin: 10px;
-    padding: 10px;
+
+/* BACKGROUND COLOR */
+.grigio{
+    background-color:#f6f6f6;
+}
+
+.nero{
+    background-color:#23272a;
 }
 
 /* HEADRE */
@@ -60,10 +63,13 @@ header{
     padding-left:50px;
     list-style-type: none;
 }
-a{
+header a{
     text-decoration: none;
     color: white;
+    margin: 10px;
+    padding: 10px;
 }
+
 .accedi{
     background-color: white;
     padding: 10px;
@@ -90,21 +96,28 @@ a{
     color: black;
     background-color: white;
     border-radius: 20px; 
-    vertical-align: middle; 
+    vertical-align: middle;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none; 
 }
 .mac  span{
     font-weight: 800;
     font-size: 20px;
     vertical-align: middle;
     padding-right: 5px;
+    
 }
 .browser{
     color: white;
     background-color: black;
     border-radius: 20px;  
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
 }
 
-/* SECTION ORRDER */
+/* SECTION 1,2,3 */
 
 .main-section h2{
     padding-bottom: 1rem;
@@ -138,19 +151,48 @@ a{
 }
 
 /* SECTION 5DIV SHRINK */
-.nero{
-    background-color: black;
+.section-footer .flex{
+    align-items: stretch;
 }
-.bordo{
-    border: 1px dotted white;
+.section-footer h4{
+    color:#7289da;
+    padding-bottom: 1rem;
 }
-.primo{
-    background-color: pink;
-    width: calc((75% / 6) * 2);
+.section-footer .lingua{
+    color: white;
+    padding-bottom: 1rem ;
 }
-.secondo{
-    background-color: green;
-    width: calc(75% / 6);
+.section-footer img{
+    width: 1.5rem;
+}
+.section-footer p{
+    padding: 0 5px;
+    font-size: .8rem;
+}
+.section-footer i{
+    font-size: 0.8rem;
+    padding-right: 15px;
+    color: white;
+}
+.section-footer .large-container{    
+    width:25%;
+}
+
+
+
+.section-footer .small-content{
+    width:80%;
+}
+.footer-menu{
+    width: calc(100% / 4);
+}
+.small-content li{
+    padding-bottom: 1rem;
+}
+.small-content a{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
 }
 
 /* FOOTET SPACE-BETWEEN */
