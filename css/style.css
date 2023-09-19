@@ -6,6 +6,9 @@
 img{
     max-width: 100%;
 }
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 /* UTILI */
 .flex{
@@ -13,8 +16,16 @@ img{
     justify-content: center;
     align-items: center;
 }
-.sezione {
-    min-height: 200px;
+.between{
+    justify-content: space-between;
+}
+.container{
+    max-width: 1200px;
+    width: 75%;
+}
+.sezione { /* DEBUG*/
+    min-height: 250px;
+    
 }
 .quadrato{
     min-height: 150px;   
@@ -24,36 +35,69 @@ img{
 /* HEADRE */
 header{
     height: 50px;
-    background-color: rgb(43, 181, 158);
+    background-color: #255ee9;
 }
 
-/* nav-bar */
-.nav-bar{
-    background-color: rgb(255, 129, 39);
-    border: 1px dotted black;
-}
-
+/* LOGO */
 .logo{
-    width: 12.5%; 
-    text-align: start;
+    min-height:36px;
+    min-width: 102px;
 }
+/* LINK */
 .link{
-    width: 50%;
-    text-align: center;
+    padding-left:50px;
+    list-style-type: none;
 }
-.login{
-    width: 12.5%;
-    text-align: end;
+a{
+    text-decoration: none;
+    color: white;
+}
+.accedi{
+    background-color: white;
+    padding: 10px;
+    border-radius: 2rem;
+    
 }
 
 /* HERO */
-.blu{
-    background-color: blue;
+.hero{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;   
 }
 .hero-1{
     width: 55%;
-    background-color: pink;
+    color: white;
+    text-align: center;
 }
+.hero-1 > p{
+    padding: 20px;
+}
+
+.hero-1 > ul{
+    list-style-type: none;
+}
+li > a{
+    margin: 10px;
+    padding: 10px;
+}
+.mac{
+    content:"\1F817";
+    color: black;
+    background-color: white;
+    border-radius: 20px; 
+    vertical-align: middle; 
+}
+.mac > span{
+    font-size: 30px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.browser{
+    color: white;
+    background-color: black;
+    border-radius: 20px;  
+}
+
 /* SECTION ORRDER */
 .bianco{
     background-color:white;
